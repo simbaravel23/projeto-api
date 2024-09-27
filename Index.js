@@ -50,3 +50,28 @@ app.route('/form/:id')
 app.listen(port, () => {
   console.log(`Servidor ouvindo na porta ${port}`);
 });
+
+// ... (código anterior)
+
+app.put('/form/:id', (req, res) => {
+  const { id } = req.params;
+  const { itemId } = req.body; // Supondo que o item tenha um ID
+  const data = readJsonFile(`form${id}`);
+  const index = data.findIndex(item => item.id === itemId);
+  if (index !== -1) {
+    data[index] = { ...data[index], ...req.body };
+    writeJsonFile(`form${id}`, data);
+    res.json({ message: 'Item atualizado' });
+  } else {
+    res.status(404).json({ message: 'Item não encontrado' });
+  }
+});
+
+app.delete('/form/:id', (req, res) => {
+  const { id } = req.params;
+  const { itemId } = req.body;
+  const data = readJsonFile(`form${id}`);
+  const newData = data.filter(item => item.id !== itemId);
+  writeJsonFile(`form${id}`, newData);
+  res.json({ message: 'Item removido' });
+});
