@@ -1,0 +1,7 @@
+{
+  "id": 3,
+  "name": "Joaquin da Silva",
+  "email": "joao@example.com",
+  "passwordHash": "$2b$10$...$myhashedpassword",
+  "permissions": ["admin", "user"]
+}
