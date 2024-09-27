@@ -51,7 +51,6 @@ app.listen(port, () => {
   console.log(`Servidor ouvindo na porta ${port}`);
 });
 
-// ... (código anterior)
 
 app.put('/form/:id', (req, res) => {
   const { id } = req.params;
