@@ -535,28 +535,3 @@ app.listen(port, () => {
     console.log(`API rodando em http://localhost:${port}`);
 });
 
-/*Mockups são representações visuais de um produto, geralmente utilizadas no design de interfaces, como aplicativos, sites ou produtos físicos. Eles servem para mostrar a aparência e a funcionalidade de um produto antes de sua implementação final. Aqui estão alguns pontos principais sobre mockups:
-
-Principais Características dos Mockups
-Visualização: Mockups oferecem uma visualização mais realista do produto do que wireframes, mostrando cores, tipografia, imagens e layout.
-
-Interatividade: Embora os mockups sejam tipicamente estáticos, alguns podem incluir elementos interativos, permitindo que os usuários simulem a navegação.
-
-Feedback: Eles são usados para coletar feedback de usuários, clientes ou partes interessadas, ajudando a identificar melhorias antes da fase de desenvolvimento.
-
-Comunicação: Servem como uma ferramenta de comunicação entre designers, desenvolvedores e stakeholders, garantindo que todos tenham uma compreensão clara da visão do produto.
-
-Ferramentas: Mockups podem ser criados usando diversas ferramentas, como Figma, Sketch, Adobe XD, entre outras.
-
-Tipos de Mockups
-Baixa Fidelidade: Simples e menos detalhados, usados em fases iniciais de design.
-Alta Fidelidade: Mais detalhados e próximos do produto final, com todos os elementos visuais e funcionais.
-Exemplos de Uso
-Web Design: Mostrar como uma página da web será organizada e estilizada.
-Aplicativos Móveis: Exibir a interface de um aplicativo e suas interações.
-Produtos Físicos: Criar representações de um produto antes da produção.
-Em resumo, os mockups são uma ferramenta essencial no processo de design, ajudando a transformar ideias em representações visuais tangíveis. Se precisar de mais detalhes ou exemplos, fique à vontade para perguntar!
-
-*/
-
-
