@@ -1,7 +1,13 @@
 {
   "id": 2,
+<<<<<<< HEAD:data/form2.json
   "name": "Maria da Silva",
   "email": "maria@example.com",
   "passwordHash": "$2b$11$...$myhashedpassword",
+=======
+  "name": "Pedro da Silva",
+  "email": "joao@example.com",
+  "passwordHash": "$2b$10$...$myhashedpassword",
+>>>>>>> 1f425a17d0a94740660618e34e2512d6e23c85c2:users/form2.json
   "permissions": ["admin", "user"]
 }
